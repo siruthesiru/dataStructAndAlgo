@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d53e2fae-7cc7-4cb2-902b-d21db57a60af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    <list default="true" id="d53e2fae-7cc7-4cb2-902b-d21db57a60af" name="Changes" comment="added Clion configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +66,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647782348113</updated>
-      <workItem from="1647782353418" duration="775000" />
+      <workItem from="1647782353418" duration="1149000" />
     </task>
+    <task id="LOCAL-00001" summary="added Clion configuration">
+      <created>1647783255711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647783255711</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added Clion configuration">
+      <created>1647783290322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647783290322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Clion configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Clion configuration" />
   </component>
 </project>
