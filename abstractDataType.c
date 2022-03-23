@@ -6,4 +6,6 @@
 
 int main(){
     printf("Forget it.");
+
+    return 0;
 }
