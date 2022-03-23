@@ -1,4 +1,10 @@
-C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/mnt/d/Documents/mambaMentality/Notes/Data Structures and Algorithms/dataStructAndAlgo/cmake-build-debug' && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' '/mnt/d/Documents/mambaMentality/Notes/Data Structures and Algorithms/dataStructAndAlgo'"
+/app/extra/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo"
+-- The C compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/d/Documents/mambaMentality/Notes/Data Structures and Algorithms/dataStructAndAlgo/cmake-build-debug
+-- Build files have been written to: /home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/cmake-build-debug

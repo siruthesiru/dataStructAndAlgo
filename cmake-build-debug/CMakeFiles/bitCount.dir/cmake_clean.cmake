@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/bitCount.dir/bitCount.c.o"
+  "CMakeFiles/bitCount.dir/bitCount.c.o.d"
   "bitCount"
   "bitCount.pdb"
 )
