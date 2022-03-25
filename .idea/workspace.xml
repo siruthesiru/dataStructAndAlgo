@@ -4,6 +4,7 @@
     <generated>
       <config projectName="dataStructAndAlgo" targetName="abstractDataType" />
       <config projectName="dataStructAndAlgo" targetName="bitCount" />
+      <config projectName="dataStructAndAlgo" targetName="linkedList" />
       <config projectName="dataStructAndAlgo" targetName="dataStructAndAlgo" />
     </generated>
   </component>
@@ -13,23 +14,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d53e2fae-7cc7-4cb2-902b-d21db57a60af" name="Changes" comment="added Clion configuration">
+    <list default="true" id="d53e2fae-7cc7-4cb2-902b-d21db57a60af" name="Changes" comment="Actually started now">
+      <change afterPath="$PROJECT_DIR$/linkedList.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/abstractDataType.c" beforeDir="false" afterPath="$PROJECT_DIR$/abstractDataType.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-bitCount-Debug-cc3ebcc41c79550d521c.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bitCount.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bitCount.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bitCount.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bitCount.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bitCount" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bitCount" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/dataStructAndAlgo" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/dataStructAndAlgo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/dataStructAndAlgo.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +57,16 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/Change Language" value="ObjectiveC&#10;ECMA Script Level 4" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="ObjectiveC" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="CMake Application.bitCount">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+  <component name="RunManager" selected="CMake Application.linkedList">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="abstractDataType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructAndAlgo" TARGET_NAME="abstractDataType" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructAndAlgo" RUN_TARGET_NAME="abstractDataType">
@@ -86,10 +84,16 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="linkedList" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dataStructAndAlgo" TARGET_NAME="linkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dataStructAndAlgo" RUN_TARGET_NAME="linkedList">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.abstractDataType" />
       <item itemvalue="CMake Application.bitCount" />
       <item itemvalue="CMake Application.dataStructAndAlgo" />
+      <item itemvalue="CMake Application.linkedList" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -113,7 +117,10 @@
       <workItem from="1648228476379" duration="93000" />
       <workItem from="1648228641338" duration="111000" />
       <workItem from="1648228766779" duration="6000" />
-      <workItem from="1648231383441" duration="875000" />
+      <workItem from="1648231383441" duration="955000" />
+      <workItem from="1648232824818" duration="1094000" />
+      <workItem from="1648247021151" duration="3264000" />
+      <workItem from="1648250804094" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="added Clion configuration">
       <created>1647783255711</created>
@@ -143,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648228153670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Actually started now">
+      <created>1648232278415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648232278415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added Clion configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Clion configuration" />
+    <MESSAGE value="Actually started now" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actually started now" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

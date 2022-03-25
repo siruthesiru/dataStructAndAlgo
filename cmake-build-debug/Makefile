@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dataStructAndAlgo
-
-# Build rule for target.
-dataStructAndAlgo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataStructAndAlgo
-.PHONY : dataStructAndAlgo
-
-# fast build rule for target.
-dataStructAndAlgo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/build
-.PHONY : dataStructAndAlgo/fast
-
-#=============================================================================
 # Target rules for targets named bitCount
 
 # Build rule for target.
@@ -155,13 +142,39 @@ abstractDataType/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/build
 .PHONY : abstractDataType/fast
 
+#=============================================================================
+# Target rules for targets named dataStructAndAlgo
+
+# Build rule for target.
+dataStructAndAlgo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataStructAndAlgo
+.PHONY : dataStructAndAlgo
+
+# fast build rule for target.
+dataStructAndAlgo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/build
+.PHONY : dataStructAndAlgo/fast
+
+#=============================================================================
+# Target rules for targets named linkedList
+
+# Build rule for target.
+linkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkedList
+.PHONY : linkedList
+
+# fast build rule for target.
+linkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/build
+.PHONY : linkedList/fast
+
 abstractDataType.o: abstractDataType.c.o
 .PHONY : abstractDataType.o
 
 # target to build an object file
 abstractDataType.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.o
 .PHONY : abstractDataType.c.o
 
 abstractDataType.i: abstractDataType.c.i
@@ -169,8 +182,8 @@ abstractDataType.i: abstractDataType.c.i
 
 # target to preprocess a source file
 abstractDataType.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.i
 .PHONY : abstractDataType.c.i
 
 abstractDataType.s: abstractDataType.c.s
@@ -178,8 +191,8 @@ abstractDataType.s: abstractDataType.c.s
 
 # target to generate assembly for a file
 abstractDataType.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.s
 .PHONY : abstractDataType.c.s
 
 bitCount.o: bitCount.c.o
@@ -187,8 +200,8 @@ bitCount.o: bitCount.c.o
 
 # target to build an object file
 bitCount.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.o
 .PHONY : bitCount.c.o
 
 bitCount.i: bitCount.c.i
@@ -196,8 +209,8 @@ bitCount.i: bitCount.c.i
 
 # target to preprocess a source file
 bitCount.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.i
 .PHONY : bitCount.c.i
 
 bitCount.s: bitCount.c.s
@@ -205,9 +218,36 @@ bitCount.s: bitCount.c.s
 
 # target to generate assembly for a file
 bitCount.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.s
 .PHONY : bitCount.c.s
+
+linkedList.o: linkedList.c.o
+.PHONY : linkedList.o
+
+# target to build an object file
+linkedList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/linkedList.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/linkedList.c.o
+.PHONY : linkedList.c.o
+
+linkedList.i: linkedList.c.i
+.PHONY : linkedList.i
+
+# target to preprocess a source file
+linkedList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/linkedList.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/linkedList.c.i
+.PHONY : linkedList.c.i
+
+linkedList.s: linkedList.c.s
+.PHONY : linkedList.s
+
+# target to generate assembly for a file
+linkedList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/linkedList.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkedList.dir/build.make CMakeFiles/linkedList.dir/linkedList.c.s
+.PHONY : linkedList.c.s
 
 # Help Target
 help:
@@ -220,12 +260,16 @@ help:
 	@echo "... abstractDataType"
 	@echo "... bitCount"
 	@echo "... dataStructAndAlgo"
+	@echo "... linkedList"
 	@echo "... abstractDataType.o"
 	@echo "... abstractDataType.i"
 	@echo "... abstractDataType.s"
 	@echo "... bitCount.o"
 	@echo "... bitCount.i"
 	@echo "... bitCount.s"
+	@echo "... linkedList.o"
+	@echo "... linkedList.i"
+	@echo "... linkedList.s"
 .PHONY : help
 
 

@@ -10,12 +10,28 @@ typedef struct node{
     struct node* link;
 }ctype, *List;
 
+void displayList(List);
+
 int main(){
-    List L = malloc(4 * sizeof(ctype));
+    List L;
 
-    List p = L;
+    ctype** p = &L;
+    ctype* q = L;
 
-    List *q = *L;
+    q->elem = 'a';
+    q->link = NULL;
+
+    displayList(L);
+
+    free(L);
 
     return 0;
+}
+
+void displayList(List list){
+    List temp;
+
+    for(temp = list; temp != NULL; temp = temp->link){
+        printf("\n%c", temp->elem);
+    }
 }
