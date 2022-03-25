@@ -17,21 +17,49 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dataStructAndAlgo">
+				<Option output="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/dataStructAndAlgo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dataStructAndAlgo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dataStructAndAlgo/fast">
+				<Option output="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/dataStructAndAlgo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dataStructAndAlgo/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -75,8 +103,61 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="abstractDataType">
+				<Option output="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/abstractDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractDataType"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="abstractDataType/fast">
+				<Option output="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/abstractDataType" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-unknown-linux-gnu/11.2.0/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstractDataType/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/home/sirutonin/Documents/dataStructAndAlgo/abstractDataType.c">
+			<Option target="dataStructAndAlgo"/>
+			<Option target="abstractDataType"/>
+		</Unit>
 		<Unit filename="/home/sirutonin/Documents/dataStructAndAlgo/bitCount.c">
+			<Option target="dataStructAndAlgo"/>
 			<Option target="bitCount"/>
 		</Unit>
 		<Unit filename="/home/sirutonin/Documents/dataStructAndAlgo/CMakeLists.txt">

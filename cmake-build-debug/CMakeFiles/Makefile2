@@ -63,7 +63,9 @@ CMAKE_BINARY_DIR = /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/dataStructAndAlgo.dir/all
 all: CMakeFiles/bitCount.dir/all
+all: CMakeFiles/abstractDataType.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,8 +73,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/dataStructAndAlgo.dir/clean
 clean: CMakeFiles/bitCount.dir/clean
+clean: CMakeFiles/abstractDataType.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dataStructAndAlgo.dir
+
+# All Build rule for target.
+CMakeFiles/dataStructAndAlgo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target dataStructAndAlgo"
+.PHONY : CMakeFiles/dataStructAndAlgo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dataStructAndAlgo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dataStructAndAlgo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/dataStructAndAlgo.dir/rule
+
+# Convenience name for target.
+dataStructAndAlgo: CMakeFiles/dataStructAndAlgo.dir/rule
+.PHONY : dataStructAndAlgo
+
+# clean rule for target.
+CMakeFiles/dataStructAndAlgo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/clean
+.PHONY : CMakeFiles/dataStructAndAlgo.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/bitCount.dir
@@ -81,7 +111,7 @@ clean: CMakeFiles/bitCount.dir/clean
 CMakeFiles/bitCount.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target bitCount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target bitCount"
 .PHONY : CMakeFiles/bitCount.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +129,32 @@ bitCount: CMakeFiles/bitCount.dir/rule
 CMakeFiles/bitCount.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/clean
 .PHONY : CMakeFiles/bitCount.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/abstractDataType.dir
+
+# All Build rule for target.
+CMakeFiles/abstractDataType.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target abstractDataType"
+.PHONY : CMakeFiles/abstractDataType.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/abstractDataType.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/abstractDataType.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/abstractDataType.dir/rule
+
+# Convenience name for target.
+abstractDataType: CMakeFiles/abstractDataType.dir/rule
+.PHONY : abstractDataType
+
+# clean rule for target.
+CMakeFiles/abstractDataType.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/clean
+.PHONY : CMakeFiles/abstractDataType.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -3,9 +3,19 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+
+typedef struct node{
+    char elem;
+    struct node* link;
+}ctype, *List;
 
 int main(){
-    printf("Forget it.");
+    List L = malloc(4 * sizeof(ctype));
+
+    List p = L;
+
+    List *q = *L;
 
     return 0;
 }

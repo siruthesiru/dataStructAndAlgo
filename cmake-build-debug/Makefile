@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/app/extra/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/app/extra/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named dataStructAndAlgo
+
+# Build rule for target.
+dataStructAndAlgo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dataStructAndAlgo
+.PHONY : dataStructAndAlgo
+
+# fast build rule for target.
+dataStructAndAlgo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/build
+.PHONY : dataStructAndAlgo/fast
+
+#=============================================================================
 # Target rules for targets named bitCount
 
 # Build rule for target.
@@ -129,11 +142,52 @@ bitCount/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/build
 .PHONY : bitCount/fast
 
+#=============================================================================
+# Target rules for targets named abstractDataType
+
+# Build rule for target.
+abstractDataType: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 abstractDataType
+.PHONY : abstractDataType
+
+# fast build rule for target.
+abstractDataType/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/build
+.PHONY : abstractDataType/fast
+
+abstractDataType.o: abstractDataType.c.o
+.PHONY : abstractDataType.o
+
+# target to build an object file
+abstractDataType.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.o
+.PHONY : abstractDataType.c.o
+
+abstractDataType.i: abstractDataType.c.i
+.PHONY : abstractDataType.i
+
+# target to preprocess a source file
+abstractDataType.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.i
+.PHONY : abstractDataType.c.i
+
+abstractDataType.s: abstractDataType.c.s
+.PHONY : abstractDataType.s
+
+# target to generate assembly for a file
+abstractDataType.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/abstractDataType.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/abstractDataType.dir/build.make CMakeFiles/abstractDataType.dir/abstractDataType.c.s
+.PHONY : abstractDataType.c.s
+
 bitCount.o: bitCount.c.o
 .PHONY : bitCount.o
 
 # target to build an object file
 bitCount.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.o
 .PHONY : bitCount.c.o
 
@@ -142,6 +196,7 @@ bitCount.i: bitCount.c.i
 
 # target to preprocess a source file
 bitCount.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.i
 .PHONY : bitCount.c.i
 
@@ -150,6 +205,7 @@ bitCount.s: bitCount.c.s
 
 # target to generate assembly for a file
 bitCount.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructAndAlgo.dir/build.make CMakeFiles/dataStructAndAlgo.dir/bitCount.c.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/bitCount.c.s
 .PHONY : bitCount.c.s
 
@@ -161,7 +217,12 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... abstractDataType"
 	@echo "... bitCount"
+	@echo "... dataStructAndAlgo"
+	@echo "... abstractDataType.o"
+	@echo "... abstractDataType.i"
+	@echo "... abstractDataType.s"
 	@echo "... bitCount.o"
 	@echo "... bitCount.i"
 	@echo "... bitCount.s"
