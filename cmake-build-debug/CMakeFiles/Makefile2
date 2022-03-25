@@ -54,10 +54,10 @@ RM = /app/extra/clion/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo"
+CMAKE_SOURCE_DIR = /home/sirutonin/Documents/dataStructAndAlgo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/bitCount.dir/clean
 CMakeFiles/bitCount.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitCount.dir/build.make CMakeFiles/bitCount.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target bitCount"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target bitCount"
 .PHONY : CMakeFiles/bitCount.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bitCount.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bitCount.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bitCount.dir/rule
 
 # Convenience name for target.

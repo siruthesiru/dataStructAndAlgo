@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sirutonin/Documents/mambaMentality/Notes/Data Structures and Algorithms/code/dataStructAndAlgo/bitCount.c" "CMakeFiles/bitCount.dir/bitCount.c.o" "gcc" "CMakeFiles/bitCount.dir/bitCount.c.o.d"
+  "/home/sirutonin/Documents/dataStructAndAlgo/bitCount.c" "CMakeFiles/bitCount.dir/bitCount.c.o" "gcc" "CMakeFiles/bitCount.dir/bitCount.c.o.d"
   )
 
 # Targets to which this target links.
