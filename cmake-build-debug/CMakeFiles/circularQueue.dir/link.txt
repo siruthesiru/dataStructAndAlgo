@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/circularQueue.dir/circularQueue.c.o  -o circularQueue 

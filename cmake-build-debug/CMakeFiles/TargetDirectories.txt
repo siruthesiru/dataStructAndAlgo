@@ -1,6 +1,7 @@
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/bitCount.dir
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/abstractDataType.dir
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/dataStructAndAlgo.dir
-/home/sirutonin/Documents/dataStructAndAlgo/cmake-build-debug/CMakeFiles/linkedList.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/circularQueue.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/stack.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/aitest.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/list.dir
+/mnt/d/Desktop/dataStructAndAlgo/cmake-build-debug/CMakeFiles/lastChance.dir
