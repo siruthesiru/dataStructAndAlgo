@@ -132,6 +132,4 @@ void insertBottom(Stack *s, char x)
     }
 }
 
-
-
 #endif

@@ -1,7 +1,3 @@
-//
-// Created by Sirutonin on 6/26/2022.
-//
-
 #include <stdio.h>
 
 #define MAX 8
