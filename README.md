@@ -4,23 +4,22 @@ They are basically just the <br>
 array, linked list, cursor-based, computer word, and bit-vector implementations of certain
 <b>Abstract Data Structures</b>.</p>
 
-### adtcursorbased.c
-Cursor-based implementation of an ADT using *virtual heap* with the following functions:
-- initializeVH() - 
-- allocSpace() - 
-- deallocSpace() -
+## ADT List
+Has the following implementations:
+1. Array List
+2. Linked List
+3. Cursor-Based List
 
-### arraylist.c
-Arraylist implementation of an ADT with the following functions:
-- initList() -
-- displayList() -
-- sortList() -
-- changeLetter() -
-- insertSorted() -
-- deleteAll() -
+## ADT Stack
+1. Array Stack
+2. Linked List Stack
+3. Cursor-Based Stack
 
-### list.c
-Linked list implementation of an ADT with the following functions:
-- initList() - 
-- insertLast() -
-- displayList() -
+## ADT Queue
+1. Array Queue
+2. Linked List Queue
+3. Cursor-Based Queue
+
+<hr>
+
+The rest will be added as I study.
