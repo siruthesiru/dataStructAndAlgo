@@ -1,5 +1,6 @@
-#ifndef LASTCHANCE_LISTARRAYV1_H
-#define LASTCHANCE_LISTARRAYV1_H
+#ifndef LASTCHANCE_LISTARRAYV4_H
+#define LASTCHANCE_LISTARRAYV4_H
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,13 +9,19 @@
 #define MAX 10
 
 typedef struct listStruct{
-    char data[MAX];
+    char *elemPtr;
     int ctr;
-}List;
+}*List;
 
 void initialize(List* L){
+    char* a = calloc(sizeof(char), MAX);
 
+    List b = malloc(sizeof(struct listStruct));
 
+    b->elemPtr = a;
+    b->ctr = 0;
+
+    *L = b;
 }
 
 //Inserts element x at position p in list L
@@ -46,13 +53,7 @@ int deleteAll(List L){
 }
 
 void freeList(List* L){
-    int i;
-
-    for(i = 0; i < MAX; i++){
-        L->data[i] = '\0';
-    }
-
-    L->ctr = 0;
+    free((*L)->elemPtr)
 }
 
-#endif //LASTCHANCE_LISTARRAYV1_H
+#endif //LASTCHANCE_LISTARRAYV4_H

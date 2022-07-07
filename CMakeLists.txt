@@ -11,4 +11,4 @@ add_executable(stack "ADT Stack/stackMain.c" "ADT Stack/stackArray.h" "ADT Stack
 add_executable(circularQueue "ADT Queue/circularQueue.c")
 add_executable(binarySearchTree Unfinished/binarySearchTree.c)
 add_executable(stackMain "ADT Stack/stackMain.c")
-add_executable(listMain "ADT List/listMain.c" "ADT List/listArrayV1.h" "ADT List/listCursorBased.h" "ADT List/listArrayV2.h")
+add_executable(listMain "ADT List/listMain.c" "ADT List/listArrayV1.h" "ADT List/listCursorBased.h" "ADT List/listArrayV2.h" "ADT List/listArrayV3.h" "ADT List/listArrayV4.h")
