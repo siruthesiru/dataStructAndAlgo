@@ -1,11 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
 //#include "stackArray.h"
 #include "stackLink.h"
 
-enum{TRUE, FALSE};
-
-int main(int argc, char *argv[]){
+int main(__attribute__((unused)) int argc, __attribute__((unused)) char **argv){
     Stack new;
     char head;
     int i, alphabet;

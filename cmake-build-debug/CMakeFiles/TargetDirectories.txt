@@ -3,7 +3,8 @@
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/aitest.dir
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/stack.dir
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/circularQueue.dir
-/home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/adtcursorbased.dir
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/binarySearchTree.dir
+/home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/stackMain.dir
+/home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/listMain.dir
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/sirutonin/Documents/Repos/dataStructAndAlgo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
