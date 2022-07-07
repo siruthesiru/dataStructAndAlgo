@@ -1,7 +1,3 @@
-//
-// Created by Sirutonin on 6/23/2022.
-//
-
 #include <stdio.h>
 #include <stdlib.h>
 
